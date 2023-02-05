@@ -63,4 +63,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/infra_actions:latest
+          tags: serg3502873/infra_actions:latest
